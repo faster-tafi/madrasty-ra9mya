@@ -1,65 +1,99 @@
-{
-  "title": "مدرستي الرقمية CMS",
-  "description": "نظام إدارة المحتوى لموقع مدرستي الرقمية",
-  "url": "https://faster-tafi.github.io/madrasty-ra9mya",
-  "collections": {
-    "pages": {
-      "label": "الصفحات",
-      "folder": "content/pages",
-      "create": true,
-      "slug": "{{slug}}",
-      "fields": [
-        { "name": "title", "label": "العنوان", "widget": "string", "required": true },
-        { "name": "description", "label": "الوصف", "widget": "string" },
-        { "name": "body", "label": "المحتوى", "widget": "text", "required": true },
-        { "name": "date", "label": "تاريخ النشر", "widget": "datetime", "format": "YYYY-MM-DD HH:mm:ss" },
-        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-      ]
-    },
-    "subjects": {
-      "label": "المواد الدراسية",
-      "folder": "content/subjects",
-      "create": true,
-      "slug": "{{slug}}",
-      "fields": [
-        { "name": "name", "label": "اسم المادة", "widget": "string", "required": true },
-        { "name": "description", "label": "وصف المادة", "widget": "text", "required": true },
-        { "name": "level", "label": "المستوى", "widget": "select", "options": ["common-core", "first-bac", "second-bac"], "required": true },
-        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-      ]
-    },
-    "lessons": {
-      "label": "الدروس",
-      "folder": "content/lessons",
-      "create": true,
-      "slug": "{{slug}}",
-      "fields": [
-        { "name": "title", "label": "عنوان الدرس", "widget": "string", "required": true },
-        { "name": "subject", "label": "المادة", "widget": "string", "required": true },
-        { "name": "link", "label": "رابط الدرس", "widget": "string", "required": true },
-        { "name": "description", "label": "وصف الدرس", "widget": "text" },
-        { "name": "order", "label": "ترتيب الدرس", "widget": "number", "default": 1 },
-        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-      ]
-    },
-    "site-info": {
-      "label": "معلومات الموقع",
-      "folder": "content/site",
-      "create": true,
-      "slug": "{{slug}}",
-      "fields": [
-        { "name": "siteName", "label": "اسم الموقع", "widget": "string", "required": true },
-        { "name": "description", "label": "وصف الموقع", "widget": "text", "required": true },
-        { "name": "footer", "label": "نص الفوتر", "widget": "string" },
-        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-      ]
-    }
-  },
-  "media_folder": "uploads",
-  "public_folder": "/uploads",
-  "backend": {
-    "name": "github",
-    "repo": "faster-tafi/madrasty-ra9mya",
-    "branch": "main"
-  }
-}
+# pages.yml – جاهز للاستخدام في CMS
+pages:
+  - title: "الصفحة الرئيسية"
+    slug: "index"
+    description: "الصفحة الرئيسية للموقع"
+    order: 1
+    published: true
+
+  - title: "الجذع المشترك"
+    slug: "common-core"
+    description: "المواد الدراسية لطلاب الجذع المشترك"
+    order: 2
+    published: true
+
+  - title: "الأولى بكالوريا"
+    slug: "first-bac"
+    description: "المواد الدراسية لطلاب الأولى بكالوريا"
+    order: 3
+    published: true
+
+  - title: "الثانية بكالوريا"
+    slug: "second-bac"
+    description: "المواد الدراسية لطلاب الثانية بكالوريا"
+    order: 4
+    published: true
+
+  - title: "الاختبارات التفاعلية"
+    slug: "tests"
+    description: "اختبارات QCM تفاعلية لجميع المواد"
+    order: 5
+    published: true
+
+  - title: "صفحة إضافية 2"
+    slug: "index2"
+    description: "صفحة إضافية 2"
+    order: 6
+    published: true
+
+  - title: "صفحة إضافية 3"
+    slug: "index3"
+    description: "صفحة إضافية 3"
+    order: 7
+    published: true
+
+  - title: "صفحة إضافية 4"
+    slug: "index4"
+    description: "صفحة إضافية 4"
+    order: 8
+    published: true
+
+  - title: "صفحة إضافية 5"
+    slug: "index5"
+    description: "صفحة إضافية 5"
+    order: 9
+    published: true
+
+# صفحات CMS الديناميكية
+cms_pages:
+  - title: "مرحباً بكم في مدرستي الرقمية"
+    slug: "home"
+    description: "بوابتك للتميز الدراسي في السلك الثانوي التأهيلي"
+    content_path: "content/pages/home.json"
+    order: 1
+    published: true
+
+  - title: "من نحن - مدرستي الرقمية"
+    slug: "about"
+    description: "تعرف على فريق مدرستي الرقمية ورسالتنا التعليمية"
+    content_path: "content/pages/about.json"
+    order: 2
+    published: true
+
+# المواد الدراسية
+subjects:
+  - title: "مثال لمادة دراسية"
+    slug: "sample-subject"
+    level: "common-core"
+    content_path: "content/subjects/sample-subject.json"
+    order: 1
+    published: true
+
+# الدروس
+lessons:
+  - title: "مثال لدرس تعليمي"
+    slug: "sample-lesson"
+    subject: "مثال لمادة دراسية"
+    link: "#"
+    content_path: "content/lessons/sample-lesson.json"
+    order: 1
+    published: true
+
+# معلومات الموقع
+site_info:
+  - title: "معلومات الموقع الرئيسية"
+    slug: "main"
+    site_name: "مدرستي الرقمية"
+    description: "بوابتك للتميز الدراسي - منصة متكاملة لدروس وتمارين واختبارات السلك الثانوي التأهيلي"
+    content_path: "content/site/main.json"
+    published: true
