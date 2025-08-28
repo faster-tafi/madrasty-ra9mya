@@ -1,0 +1,125 @@
+
+# قائمة شاملة لجميع صفحات الموقع
+# Generated from existing codebase structure
+
+pages:
+  # الصفحات الأساسية
+  - title: "الصفحة الرئيسية"
+    slug: "index"
+    url: "/"
+    description: "الصفحة الرئيسية للموقع"
+    order: 1
+    type: "main"
+    
+  # صفحات المستويات التعليمية
+  - title: "الجذع المشترك"
+    slug: "common-core"
+    url: "/level.html?level=common-core"
+    description: "المواد الدراسية لطلاب الجذع المشترك"
+    order: 2
+    type: "level"
+    
+  - title: "الأولى بكالوريا"
+    slug: "first-bac"
+    url: "/level.html?level=first-bac"
+    description: "المواد الدراسية لطلاب الأولى بكالوريا"
+    order: 3
+    type: "level"
+    
+  - title: "الثانية بكالوريا"
+    slug: "second-bac"
+    url: "/level.html?level=second-bac"
+    description: "المواد الدراسية لطلاب الثانية بكالوريا"
+    order: 4
+    type: "level"
+
+  # صفحات الاختبارات
+  - title: "الاختبارات التفاعلية"
+    slug: "tests"
+    url: "/tests.html"
+    description: "اختبارات QCM تفاعلية لجميع المواد"
+    order: 5
+    type: "assessment"
+
+  # صفحات إضافية
+  - title: "index2"
+    slug: "index2"
+    url: "/index2.html"
+    description: "صفحة إضافية 2"
+    order: 6
+    type: "additional"
+    
+  - title: "index3"
+    slug: "index3"
+    url: "/index3.html"
+    description: "صفحة إضافية 3"
+    order: 7
+    type: "additional"
+    
+  - title: "index4"
+    slug: "index4"
+    url: "/index4.html"
+    description: "صفحة إضافية 4"
+    order: 8
+    type: "additional"
+    
+  - title: "index5"
+    slug: "index5"
+    url: "/index5.html"
+    description: "صفحة إضافية 5"
+    order: 9
+    type: "additional"
+
+# صفحات المحتوى الديناميكي (من CMS)
+cms_pages:
+  - title: "مرحباً بكم في مدرستي الرقمية"
+    slug: "home"
+    content_path: "content/pages/home.json"
+    description: "بوابتك للتميز الدراسي في السلك الثانوي التأهيلي"
+    order: 1
+    published: true
+    
+  - title: "من نحن - مدرستي الرقمية"
+    slug: "about"
+    content_path: "content/pages/about.json"
+    description: "تعرف على فريق مدرستي الرقمية ورسالتنا التعليمية"
+    order: 2
+    published: true
+
+# المواد الدراسية (من CMS)
+subjects:
+  - title: "مثال لمادة دراسية"
+    slug: "sample-subject"
+    content_path: "content/subjects/sample-subject.json"
+    level: "common-core"
+    order: 1
+    published: true
+
+# الدروس (من CMS)
+lessons:
+  - title: "مثال لدرس تعليمي"
+    slug: "sample-lesson"
+    content_path: "content/lessons/sample-lesson.json"
+    subject: "مثال لمادة دراسية"
+    link: "#"
+    order: 1
+    published: true
+
+# معلومات الموقع
+site_info:
+  - title: "معلومات الموقع الرئيسية"
+    slug: "main"
+    content_path: "content/site/main.json"
+    site_name: "مدرستي الرقمية"
+    description: "بوابتك للتميز الدراسي - منصة متكاملة لدروس وتمارين واختبارات السلك الثانوي التأهيلي"
+    published: true
+
+# المسارات الوظيفية للنظام
+system_routes:
+  - title: "التنقل الديناميكي"
+    description: "نظام التنقل بين المحتوى الديناميكي"
+    functions:
+      - "cms.showHomePage()"
+      - "cms.showAboutPage()"
+      - "cms.showSubjects()"
+      - "cms.loadSubjectLessons()"
