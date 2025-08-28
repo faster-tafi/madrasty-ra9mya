@@ -1,53 +1,65 @@
-"collections": {
-  "pages": {
-    "label": "الصفحات",
-    "folder": "content/pages",
-    "create": true,
-    "slug": "{{slug}}",
-    "fields": [
-      { "name": "title", "label": "العنوان", "widget": "string", "required": true },
-      { "name": "description", "label": "الوصف", "widget": "string" },
-      { "name": "body", "label": "المحتوى", "widget": "text", "required": true },
-      { "name": "date", "label": "تاريخ النشر", "widget": "datetime", "format": "YYYY-MM-DD HH:mm:ss" },
-      { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-    ]
+{
+  "title": "مدرستي الرقمية CMS",
+  "description": "نظام إدارة المحتوى لموقع مدرستي الرقمية",
+  "url": "https://faster-tafi.github.io/madrasty-ra9mya",
+  "collections": {
+    "pages": {
+      "label": "الصفحات",
+      "folder": "content/pages",
+      "create": true,
+      "slug": "{{slug}}",
+      "fields": [
+        { "name": "title", "label": "العنوان", "widget": "string", "required": true },
+        { "name": "description", "label": "الوصف", "widget": "string" },
+        { "name": "body", "label": "المحتوى", "widget": "text", "required": true },
+        { "name": "date", "label": "تاريخ النشر", "widget": "datetime", "format": "YYYY-MM-DD HH:mm:ss" },
+        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
+      ]
+    },
+    "subjects": {
+      "label": "المواد الدراسية",
+      "folder": "content/subjects",
+      "create": true,
+      "slug": "{{slug}}",
+      "fields": [
+        { "name": "name", "label": "اسم المادة", "widget": "string", "required": true },
+        { "name": "description", "label": "وصف المادة", "widget": "text", "required": true },
+        { "name": "level", "label": "المستوى", "widget": "select", "options": ["common-core", "first-bac", "second-bac"], "required": true },
+        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
+      ]
+    },
+    "lessons": {
+      "label": "الدروس",
+      "folder": "content/lessons",
+      "create": true,
+      "slug": "{{slug}}",
+      "fields": [
+        { "name": "title", "label": "عنوان الدرس", "widget": "string", "required": true },
+        { "name": "subject", "label": "المادة", "widget": "string", "required": true },
+        { "name": "link", "label": "رابط الدرس", "widget": "string", "required": true },
+        { "name": "description", "label": "وصف الدرس", "widget": "text" },
+        { "name": "order", "label": "ترتيب الدرس", "widget": "number", "default": 1 },
+        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
+      ]
+    },
+    "site-info": {
+      "label": "معلومات الموقع",
+      "folder": "content/site",
+      "create": true,
+      "slug": "{{slug}}",
+      "fields": [
+        { "name": "siteName", "label": "اسم الموقع", "widget": "string", "required": true },
+        { "name": "description", "label": "وصف الموقع", "widget": "text", "required": true },
+        { "name": "footer", "label": "نص الفوتر", "widget": "string" },
+        { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
+      ]
+    }
   },
-  "subjects": {
-    "label": "المواد الدراسية",
-    "folder": "content/subjects",
-    "create": true,
-    "slug": "{{slug}}",
-    "fields": [
-      { "name": "name", "label": "اسم المادة", "widget": "string", "required": true },
-      { "name": "description", "label": "وصف المادة", "widget": "text", "required": true },
-      { "name": "level", "label": "المستوى", "widget": "select", "options": ["common-core", "first-bac", "second-bac"], "required": true },
-      { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-    ]
-  },
-  "lessons": {
-    "label": "الدروس",
-    "folder": "content/lessons",
-    "create": true,
-    "slug": "{{slug}}",
-    "fields": [
-      { "name": "title", "label": "عنوان الدرس", "widget": "string", "required": true },
-      { "name": "subject", "label": "المادة", "widget": "string", "required": true },
-      { "name": "link", "label": "رابط الدرس", "widget": "string", "required": true },
-      { "name": "description", "label": "وصف الدرس", "widget": "text" },
-      { "name": "order", "label": "ترتيب الدرس", "widget": "number", "default": 1 },
-      { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-    ]
-  },
-  "site-info": {
-    "label": "معلومات الموقع",
-    "folder": "content/site",
-    "create": true,
-    "slug": "{{slug}}",
-    "fields": [
-      { "name": "siteName", "label": "اسم الموقع", "widget": "string", "required": true },
-      { "name": "description", "label": "وصف الموقع", "widget": "text", "required": true },
-      { "name": "footer", "label": "نص الفوتر", "widget": "string" },
-      { "name": "published", "label": "منشور", "widget": "boolean", "default": true }
-    ]
+  "media_folder": "uploads",
+  "public_folder": "/uploads",
+  "backend": {
+    "name": "github",
+    "repo": "faster-tafi/madrasty-ra9mya",
+    "branch": "main"
   }
 }
