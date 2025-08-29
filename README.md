@@ -1,1 +1,0 @@
-# madrasty-ra9mya
