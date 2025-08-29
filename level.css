@@ -1,0 +1,304 @@
+/* Level Page Specific Styles */
+
+.level-header {
+    background: var(--gradient);
+    padding: 8rem 5% 4rem;
+    text-align: center;
+    color: var(--white);
+    margin-top: 70px;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    top: 2rem;
+    right: 5%;
+    background: rgba(255,255,255,0.2);
+    color: var(--white);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.back-btn:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateX(-5px);
+}
+
+.level-header-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.level-header-content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.subjects-section {
+    padding: 5rem 5%;
+    background: var(--light-gray);
+    min-height: 60vh;
+}
+
+.subjects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.subject-container {
+    background: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.subject-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.subject-header {
+    background: var(--gradient);
+    color: var(--white);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.subject-header:hover {
+    background: linear-gradient(135deg, #0f1862, #5a1570);
+}
+
+.expand-arrow {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.subject-header h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.subject-icon-large {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.subject-content {
+    padding: 2rem;
+}
+
+.content-section {
+    margin-bottom: 2rem;
+}
+
+.content-section h3 {
+    color: var(--primary-blue);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lessons-list, .exercises-list {
+    list-style: none;
+}
+
+.lessons-list li, .exercises-list li {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+    margin: 0.8rem 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(245,245,245,0.8));
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: 1px solid rgba(26, 35, 126, 0.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+.lessons-list li::before, .exercises-list li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient);
+    transition: left 0.4s ease;
+    z-index: 1;
+}
+
+.lessons-list li:hover::before, .exercises-list li:hover::before {
+    left: 0;
+}
+
+.lessons-list li:hover, .exercises-list li:hover {
+    color: var(--white);
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 30px rgba(26, 35, 126, 0.2);
+}
+
+.lessons-list li > *, .exercises-list li > * {
+    position: relative;
+    z-index: 2;
+}
+
+.lesson-number, .exercise-number {
+    background: var(--gradient);
+    color: var(--white);
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-left: 1rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(26, 35, 126, 0.3);
+    transition: all 0.3s ease;
+}
+
+.lesson-title, .exercise-title {
+    flex: 1;
+    font-weight: 600;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
+
+.lesson-download, .exercise-download {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: var(--white);
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    box-shadow: 0 3px 10px rgba(76, 175, 80, 0.3);
+    transition: all 0.3s ease;
+}
+
+.download-icon {
+    font-size: 1.4rem;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    margin-left: 0.5rem;
+}
+
+.lessons-list li:hover .download-icon,
+.exercises-list li:hover .download-icon {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+.lessons-list li:hover .lesson-number,
+.exercises-list li:hover .exercise-number {
+    background: var(--white);
+    color: var(--primary-blue);
+    transform: scale(1.1);
+}
+
+.lessons-list li:hover .lesson-download,
+.exercises-list li:hover .exercise-download {
+    background: rgba(255,255,255,0.9);
+    color: var(--primary-blue);
+    transform: scale(1.05);
+}
+
+/* Loading Animation */
+.loading {
+    text-align: center;
+    padding: 3rem;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+}
+
+.loading::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid var(--light-gray);
+    border-top: 3px solid var(--primary-blue);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .level-header-content h1 {
+        font-size: 2rem;
+    }
+
+    .subjects-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .back-btn {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: 2rem;
+    }
+
+    .subject-content {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .level-header-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .subject-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .lessons-list li, .exercises-list li {
+        padding: 0.8rem 1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .lesson-title, .exercise-title {
+        margin: 0;
+    }
+}
