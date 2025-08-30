@@ -62,7 +62,7 @@ window.checkDashboardStatus = checkDashboardStatus;
 
 // إعدادات GitHub API
 let githubConfig = {
-    token: "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",
+    token: "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",
     owner: "faster-tafi",
     repo: "madrasty-ra9mya"
 };
