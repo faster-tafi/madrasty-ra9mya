@@ -70,11 +70,6 @@ const levelSubjects = {
             "lessons": [],
             "exercises": [
                 {
-                    "title": "دراسة النثر",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "تطبيقات بلاغية",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
