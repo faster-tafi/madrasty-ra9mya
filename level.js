@@ -6,13 +6,7 @@ const levelSubjects = {
             "name": "العربية",
             "icon": "📝",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "تحليل النصوص",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الاجتماعيات",
