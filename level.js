@@ -141,13 +141,7 @@ const levelSubjects = {
             "name": "المعلوميات",
             "icon": "💻",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "مشاريع تطبيقية",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         }
     ],
     "first-bac": [
