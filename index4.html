@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاختبارات - مدرستي الرقمية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tests.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>مدرستي الرقمية</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="index5.html">المواد</a></li>
+                <li><a href="index4.html" class="active">الاختبارات</a></li>
+                <li><a href="#about">من نحن</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tests Header -->
+    <section class="tests-header">
+        <div class="tests-header-content">
+            <h1>الاختبارات الشاملة</h1>
+            <p>اختبر معرفتك واكتشف مستواك في جميع المواد</p>
+        </div>
+    </section>
+
+    <!-- Tests Categories -->
+    <section class="tests-categories-section">
+        <div class="categories-container">
+
+            <!-- الأولى بكالوريا -->
+            <div class="category-card">
+                <div class="category-header">
+                    <div class="category-icon first-bac-icon">🎯</div>
+                    <h2>اختبارات الأولى بكالوريا</h2>
+                    <p>اختبارات شاملة لجميع مواد السنة الثانية</p>
+                </div>
+                <div class="subjects-grid">
+                    <div class="test-subject-card" onclick="startTest('first-bac', 'french')">
+                        <div class="subject-test-icon">FR</div>
+                        <h3>الفرنسية</h3>
+                        <div class="test-info">
+                            <span class="questions-count">5 أسئلة</span>
+                        </div>
+                    </div>
+                    <div class="test-subject-card" onclick="startTest('first-bac', 'arabic')">
+                        <div class="subject-test-icon">AR</div>
+                        <h3>العربية</h3>
+                        <div class="test-info">
+                            <span class="questions-count">3 أسئلة</span>
+                        </div>
+                    </div>
+                    <div class="test-subject-card" onclick="startTest('first-bac', 'social')">
+                        <div class="subject-test-icon">SO</div>
+                        <h3>الاجتماعيات</h3>
+                        <div class="test-info">
+                            <span class="questions-count">3 أسئلة</span>
+                        </div>
+                    </div>
+                    <div class="test-subject-card" onclick="startTest('first-bac', 'islamic')">
+                        <div class="subject-test-icon">IS</div>
+                        <h3>التربية الإسلامية</h3>
+                        <div class="test-info">
+                            <span class="questions-count">50 سؤال</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الثانية بكالوريا -->
+            <div class="category-card">
+                <div class="category-header">
+                    <div class="category-icon second-bac-icon">🏆</div>
+                    <h2>اختبارات الثانية بكالوريا</h2>
+                    <p>اختبارات تحضيرية للبكالوريا</p>
+                </div>
+                <div class="subjects-grid">
+                    <div class="test-subject-card" onclick="startTest('second-bac', 'biology')">
+                        <div class="subject-test-icon">BI</div>
+                        <h3>علوم الحياة والأرض</h3>
+                        <div class="test-info">
+                            <span class="questions-count">2 سؤال</span>
+                        </div>
+                    </div>
+                    <div class="test-subject-card" onclick="startTest('second-bac', 'physics')">
+                        <div class="subject-test-icon">PH</div>
+                        <h3>الفيزياء</h3>
+                        <div class="test-info">
+                            <span class="questions-count">2 سؤال</span>
+                        </div>
+                    </div>
+                    <div class="test-subject-card" onclick="startTest('second-bac', 'math')">
+                        <div class="subject-test-icon">MA</div>
+                        <h3>الرياضيات</h3>
+                        <div class="test-info">
+                            <span class="questions-count">3 أسئلة</span>
+                        </div>
+                    </div>
+                    <div class="test-subject-card" onclick="startTest('second-bac', 'philosophy')">
+                        <div class="subject-test-icon">PL</div>
+                        <h3>الفلسفة</h3>
+                        <div class="test-info">
+                            <span class="questions-count">2 سؤال</span>
+                        </div>
+                    </div>
+                    <div class="test-subject-card" onclick="startTest('second-bac', 'english')">
+                        <div class="subject-test-icon">EN</div>
+                        <h3>الإنجليزية</h3>
+                        <div class="test-info">
+                            <span class="questions-count">2 سؤال</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>مدرستي الرقمية</h3>
+                <p>بوابتك للتميز الدراسي</p>
+            </div>
+            <div class="social-icons">
+                <div class="social-icon facebook" onclick="window.open('https://www.facebook.com/academy.najah', '_blank')">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="social-icon youtube" onclick="window.open('https://www.youtube.com/@academy-najah', '_blank')">
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 مدرستي الرقمية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="tests.js"></script>
+</body>
+</html>
