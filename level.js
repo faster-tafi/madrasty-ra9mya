@@ -339,12 +339,7 @@ const levelSubjects = {
         {
             "name": "التربية الإسلامية",
             "icon": "🕌",
-            "lessons": [
-                {
-                    "title": "الفقه المقارن",
-                    "downloadNumber": "03"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
