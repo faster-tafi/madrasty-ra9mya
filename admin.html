@@ -1,242 +1,0 @@
-
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>لوحة التحكم - مدرستي الرقمية</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="admin.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-brand">
-                <h2>لوحة التحكم - مدرستي الرقمية</h2>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="admin.html" class="active">لوحة التحكم</a></li>
-                <li><a href="#" onclick="logout()">تسجيل الخروج</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Login Section -->
-    <section id="login-section" class="admin-login">
-        <div class="login-container">
-            <h2>تسجيل الدخول للوحة التحكم</h2>
-            <form id="login-form">
-                <input type="password" id="admin-password" placeholder="كلمة المرور الإدارية" required>
-                <button type="submit" class="admin-btn">دخول</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Admin Dashboard -->
-    <section id="admin-dashboard" class="admin-dashboard" style="display: none;">
-        <div class="dashboard-container">
-            <div class="dashboard-tabs">
-                <button class="tab-btn active" onclick="showTab('lessons')">إدارة الدروس</button>
-                <button class="tab-btn" onclick="showTab('tests')">إدارة الاختبارات</button>
-                <button class="tab-btn" onclick="showTab('subjects')">إدارة المواد</button>
-                <button class="tab-btn" onclick="showTab('settings')">الإعدادات</button>
-            </div>
-
-            <!-- Lessons Management -->
-            <div id="lessons-tab" class="tab-content">
-                <div class="content-header">
-                    <h3>إدارة الدروس</h3>
-                    <button class="admin-btn" onclick="showAddLessonForm()">إضافة درس جديد</button>
-                </div>
-                
-                <div class="level-selector">
-                    <select id="level-select" onchange="loadSubjects()">
-                        <option value="">اختر المستوى</option>
-                        <option value="common-core">الجذع المشترك</option>
-                        <option value="first-bac">الأولى بكالوريا</option>
-                        <option value="second-bac">الثانية بكالوريا</option>
-                    </select>
-                    
-                    <select id="subject-select" onchange="loadLessons()">
-                        <option value="">اختر المادة</option>
-                    </select>
-                </div>
-
-                <div id="lessons-list" class="items-list">
-                    <!-- قائمة الدروس ستظهر هنا -->
-                </div>
-
-                <!-- Add Lesson Form -->
-                <div id="add-lesson-form" class="admin-form" style="display: none;">
-                    <h4>إدارة الدرس</h4>
-                    <form id="lesson-form">
-                        <input type="text" id="lesson-title" placeholder="عنوان الدرس" required>
-                        <input type="url" id="lesson-url" placeholder="رابط الدرس" required>
-                        <input type="text" id="lesson-number" placeholder="رقم الدرس" required>
-                        <select id="lesson-level" onchange="loadSubjects()" required>
-                            <option value="">اختر المستوى</option>
-                            <option value="common-core">الجذع المشترك</option>
-                            <option value="first-bac">الأولى بكالوريا</option>
-                            <option value="second-bac">الثانية بكالوريا</option>
-                        </select>
-                        <select id="lesson-subject" required>
-                            <option value="">اختر المادة</option>
-                        </select>
-                        <div class="form-buttons">
-                            <button type="submit" class="admin-btn">حفظ الدرس</button>
-                            <button type="button" class="admin-btn secondary" onclick="hideAddLessonForm()">إلغاء</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <!-- Tests Management -->
-            <div id="tests-tab" class="tab-content" style="display: none;">
-                <div class="content-header">
-                    <h3>إدارة الاختبارات</h3>
-                    <div class="header-actions">
-                        <input type="text" id="test-search" placeholder="البحث في الاختبارات..." onkeyup="searchTests()" style="padding: 0.5rem; margin-left: 1rem; border-radius: 5px; border: 1px solid #ddd;">
-                        <button class="admin-btn" onclick="showAddTestForm()">إضافة اختبار جديد</button>
-                    </div>
-                </div>
-
-                <!-- Test Selection Controls -->
-                <div class="level-selector">
-                    <select id="test-management-level" onchange="loadTestSubjects()">
-                        <option value="">اختر المستوى</option>
-                        <option value="first-bac">الأولى بكالوريا</option>
-                        <option value="second-bac">الثانية بكالوريا</option>
-                    </select>
-                    
-                    <select id="test-management-subject" onchange="loadTestNumbers()">
-                        <option value="">اختر المادة</option>
-                    </select>
-                    
-                    <select id="test-management-number" onchange="loadSpecificTest()">
-                        <option value="">اختر الاختبار</option>
-                    </select>
-                </div>
-
-                <!-- Selected Test Details -->
-                <div id="selected-test-details" style="display: none;" class="admin-form">
-                    <div id="selected-test-title">تفاصيل الاختبار</div>
-                    <div id="test-questions-preview">
-                        <!-- أسئلة الاختبار المحدد القابلة للتعديل ستظهر هنا -->
-                    </div>
-                </div>
-
-                <div class="tests-list" id="tests-list">
-                    <!-- ملخص الاختبارات ستظهر هنا -->
-                </div>
-
-                <!-- Add Test Form -->
-                <div id="add-test-form" class="admin-form" style="display: none;">
-                    <h4>إدارة الاختبار</h4>
-                    <form id="test-form">
-                        <input type="text" id="test-title" placeholder="عنوان الاختبار" required>
-                        <input type="hidden" id="test-id">
-                        <select id="test-level" onchange="loadSubjects()" required>
-                            <option value="">اختر المستوى</option>
-                            <option value="first-bac">الأولى بكالوريا</option>
-                            <option value="second-bac">الثانية بكالوريا</option>
-                        </select>
-                        <select id="test-subject" required>
-                            <option value="">اختر المادة</option>
-                        </select>
-                        <input type="number" id="test-duration" placeholder="مدة الاختبار (بالدقائق)" required>
-                        
-                        <div id="questions-container">
-                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-                                <h5>الأسئلة</h5>
-                                <button type="button" class="admin-btn small" onclick="addQuestion()">إضافة سؤال</button>
-                            </div>
-                            <div id="questions-list">
-                                <!-- الأسئلة ستضاف هنا -->
-                            </div>
-                        </div>
-
-                        <div class="form-buttons">
-                            <button type="submit" class="admin-btn">حفظ الاختبار</button>
-                            <button type="button" class="admin-btn secondary" onclick="hideAddTestForm()">إلغاء</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <!-- Subjects Management -->
-            <div id="subjects-tab" class="tab-content" style="display: none;">
-                <div class="content-header">
-                    <h3>إدارة المواد</h3>
-                    <button class="admin-btn" onclick="showAddSubjectForm()">إضافة مادة جديدة</button>
-                </div>
-
-                <div class="level-selector">
-                    <select id="subjects-level-select" onchange="loadSubjects()">
-                        <option value="">اختر المستوى لعرض المواد</option>
-                        <option value="common-core">الجذع المشترك</option>
-                        <option value="first-bac">الأولى بكالوريا</option>
-                        <option value="second-bac">الثانية بكالوريا</option>
-                    </select>
-                </div>
-
-                <div id="subjects-list" class="items-list">
-                    <!-- قائمة المواد ستظهر هنا -->
-                </div>
-
-                <!-- Add Subject Form -->
-                <div id="add-subject-form" class="admin-form" style="display: none;">
-                    <h4>إضافة مادة جديدة</h4>
-                    <form id="subject-form">
-                        <input type="text" id="subject-name" placeholder="اسم المادة (مثال: الرياضيات)" required>
-                        <input type="text" id="subject-key" placeholder="مفتاح المادة (مثال: math)" required>
-                        <input type="text" id="subject-icon" placeholder="أيقونة المادة (مثال: 📊)" required>
-                        <select id="subject-level" required>
-                            <option value="">اختر المستوى</option>
-                            <option value="common-core">الجذع المشترك</option>
-                            <option value="first-bac">الأولى بكالوريا</option>
-                            <option value="second-bac">الثانية بكالوريا</option>
-                        </select>
-                        <div class="form-buttons">
-                            <button type="submit" class="admin-btn">حفظ المادة</button>
-                            <button type="button" class="admin-btn secondary" onclick="hideAddSubjectForm()">إلغاء</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <!-- Settings Tab -->
-            <div id="settings-tab" class="tab-content" style="display: none;">
-                <div class="content-header">
-                    <h3>إعدادات GitHub</h3>
-                </div>
-                <div class="settings-form">
-                    <div class="setting-item">
-                        <label>GitHub Token:</label>
-                        <input type="password" id="github-token" placeholder="أدخل GitHub Token">
-                    </div>
-                    <div class="setting-item">
-                        <label>اسم المالك:</label>
-                        <input type="text" id="github-owner" placeholder="اسم المستخدم على GitHub">
-                    </div>
-                    <div class="setting-item">
-                        <label>اسم المستودع:</label>
-                        <input type="text" id="github-repo" placeholder="اسم المستودع">
-                    </div>
-                    <button class="admin-btn" onclick="saveSettings()">حفظ الإعدادات</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Loading Overlay -->
-    <div id="loading-overlay" class="loading-overlay" style="display: none;">
-        <div class="loading-spinner"></div>
-        <p>جاري حفظ التغييرات على GitHub...</p>
-    </div>
-
-    <script src="admin.js"></script>
-</body>
-</html>
