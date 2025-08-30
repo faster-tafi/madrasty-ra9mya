@@ -75,11 +75,6 @@ const levelSubjects = {
             "icon": "🌍",
             "lessons": [
                 {
-                    "title": "التاريخ المعاصر",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الجغرافيا البشرية",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
