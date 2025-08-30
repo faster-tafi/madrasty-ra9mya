@@ -341,10 +341,6 @@ const levelSubjects = {
             "icon": "🕌",
             "lessons": [
                 {
-                    "title": "الحديث وعلومه",
-                    "downloadNumber": "02"
-                },
-                {
                     "title": "الفقه المقارن",
                     "downloadNumber": "03"
                 }
