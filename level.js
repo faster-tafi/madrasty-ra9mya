@@ -76,11 +76,6 @@ const levelSubjects = {
             "lessons": [],
             "exercises": [
                 {
-                    "title": "دراسة وثائق تاريخية",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "تحليل خرائط",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
