@@ -357,12 +357,7 @@ const levelSubjects = {
                     "downloadNumber": "04"
                 }
             ],
-            "exercises": [
-                {
-                    "title": "دراسة الأحاديث",
-                    "downloadNumber": "02"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "علوم الحياة والأرض",
@@ -851,6 +846,8 @@ const levelTitles = {
     "first-bac": "دروس الأولى بكالوريا",
     "second-bac": "دروس الثانية بكالوريا"
 };
+
+// باقي الكود الأصلي للملف إذا كان موجوداً
 
 // باقي الكود الأصلي للملف إذا كان موجوداً
 
