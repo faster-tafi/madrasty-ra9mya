@@ -361,10 +361,6 @@ const levelSubjects = {
                 {
                     "title": "دراسة الأحاديث",
                     "downloadNumber": "02"
-                },
-                {
-                    "title": "مسائل فقهية",
-                    "downloadNumber": "03"
                 }
             ]
         },
