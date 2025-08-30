@@ -386,13 +386,7 @@ const levelSubjects = {
         {
             "name": "التربية الإسلامية",
             "icon": "🕌",
-            "lessons": [
-                {
-                    "title": "الفقه المقارن",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": [
                 {
                     "title": "تفسير آيات قرآنية",
