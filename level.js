@@ -347,10 +347,6 @@ const levelSubjects = {
                 {
                     "title": "الفقه المقارن",
                     "downloadNumber": "03"
-                },
-                {
-                    "title": "العقيدة الإسلامية",
-                    "downloadNumber": "04"
                 }
             ],
             "exercises": []
