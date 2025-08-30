@@ -69,11 +69,6 @@ const levelSubjects = {
             "icon": "📝",
             "lessons": [
                 {
-                    "title": "الشعر العربي القديم",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "النثر العربي",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
