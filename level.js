@@ -341,10 +341,6 @@ const levelSubjects = {
             "icon": "🕌",
             "lessons": [
                 {
-                    "title": "القرآن وعلومه",
-                    "downloadNumber": "01"
-                },
-                {
                     "title": "الحديث وعلومه",
                     "downloadNumber": "02"
                 },
