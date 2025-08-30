@@ -140,13 +140,7 @@ const levelSubjects = {
         {
             "name": "المعلوميات",
             "icon": "💻",
-            "lessons": [
-                {
-                    "title": "نظم التشغيل",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": [
                 {
                     "title": "تمارين البرمجة",
