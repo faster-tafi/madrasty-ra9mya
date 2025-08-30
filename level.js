@@ -8,11 +8,9 @@ const levelSubjects = {
             icon: '📝',
             lessons: [
                 { 
-                    title: 'النصوص الأدبية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://www.mediafire.com/file/uxys0jeor33l2o3/%25D8%25AF%25D8%25B1%25D9%2588%25D8%25B3_%25D8%25A7%25D9%2584%25D8%25A3%25D9%2588%25D9%2584%25D9%2589_%25D8%25A8%25D8%25A7%25D9%2583_%25D8%25A7%25D9%2584%25D8%25AA%25D8%25B1%25D8%25A8%25D9%258A%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25A5%25D8%25B3%25D9%2584%25D8%25A7%25D9%2585%25D9%258A%25D8%25A9_%25D9%2583%25D8%25A7%25D9%2585%25D9%2584%25D8%25A9.pdf/file'
-                },
-                { 
+                   
+
+        
                     title: 'علم البلاغة', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
