@@ -388,11 +388,6 @@ const levelSubjects = {
             "icon": "🕌",
             "lessons": [
                 {
-                    "title": "القرآن وعلومه",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الحديث وعلومه",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
