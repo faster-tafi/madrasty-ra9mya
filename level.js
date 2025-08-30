@@ -357,12 +357,7 @@ const levelSubjects = {
                     "downloadNumber": "04"
                 }
             ],
-            "exercises": [
-                {
-                    "title": "دراسة الأحاديث",
-                    "downloadNumber": "02"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "علوم الحياة والأرض",
