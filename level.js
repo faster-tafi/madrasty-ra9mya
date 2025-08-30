@@ -62,13 +62,7 @@ const levelSubjects = {
         {
             "name": "الرياضيات",
             "icon": "📐",
-            "lessons": [
-                {
-                    "title": "الإحصاء",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
