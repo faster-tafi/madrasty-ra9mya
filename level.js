@@ -133,11 +133,6 @@ const levelSubjects = {
             ],
             "exercises": [
                 {
-                    "title": "Essay Writing",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "Reading Comprehension",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
