@@ -99,11 +99,6 @@ const levelSubjects = {
             "icon": "📐",
             "lessons": [
                 {
-                    "title": "الهندسة التحليلية",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "التفاضل والتكامل",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
