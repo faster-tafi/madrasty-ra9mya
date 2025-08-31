@@ -131,11 +131,6 @@ const levelSubjects = {
             "icon": "🧬",
             "lessons": [
                 {
-                    "title": "البيولوجيا الجزيئية",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الجيولوجيا المتقدمة",
                     "downloadNumber": "04",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
