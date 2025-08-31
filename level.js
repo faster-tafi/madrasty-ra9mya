@@ -155,11 +155,6 @@ const levelSubjects = {
             "icon": "🇬🇧",
             "lessons": [
                 {
-                    "title": "Advanced Grammar & Syntax",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "Literature Analysis",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
