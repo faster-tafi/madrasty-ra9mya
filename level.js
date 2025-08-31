@@ -73,13 +73,7 @@ const levelSubjects = {
         {
             "name": "الاجتماعيات",
             "icon": "🌍",
-            "lessons": [
-                {
-                    "title": "التربية المدنية",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": [
                 {
                     "title": "خرائط تاريخية",
