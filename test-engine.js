@@ -18,16 +18,6 @@ const sampleQuestions = {
         "duration": 45,
         "questions": [
             {
-                "question": "Quel est le passé composé du verbe \"aller\" avec le pronom \"je\"?",
-                "options": [
-                    "Je suis allé(e)",
-                    "J'ai allé",
-                    "Je vais",
-                    "J'irai"
-                ],
-                "correct": 0
-            },
-            {
                 "question": "Quelle est la forme correcte du pluriel de \"œil\"?",
                 "options": [
                     "œils",
