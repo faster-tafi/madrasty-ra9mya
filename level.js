@@ -80,13 +80,7 @@ const levelSubjects = {
             "name": "التربية الإسلامية",
             "icon": "🕌",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "شرح الأحاديث",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "علوم الحياة والأرض",
