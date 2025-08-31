@@ -225,11 +225,6 @@ const levelSubjects = {
                     "title": "Expression Écrite",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
-                    "title": "Communication Orale",
-                    "downloadNumber": "04",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
             "exercises": [
