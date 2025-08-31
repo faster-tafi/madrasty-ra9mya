@@ -201,11 +201,6 @@ const levelSubjects = {
                     "title": "Grammaire Approfondie",
                     "downloadNumber": "01",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
-                    "title": "Dissertation Française",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
             "exercises": [
