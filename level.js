@@ -111,11 +111,6 @@ const levelSubjects = {
             "icon": "🇬🇧",
             "lessons": [
                 {
-                    "title": "Writing Skills",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "Speaking & Listening",
                     "downloadNumber": "04",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
