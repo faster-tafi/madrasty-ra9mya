@@ -261,12 +261,6 @@ const levelSubjects = {
                     "downloadNumber": "02"
                 }
             ]
-        },
-        {
-            "name": "الفرنسية",
-            "icon": "📚",
-            "lessons": [],
-            "exercises": []
         }
     ],
     "first-bac": [
