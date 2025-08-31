@@ -153,11 +153,6 @@ const levelSubjects = {
             ],
             "exercises": [
                 {
-                    "title": "تجارب المناعة",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "دراسات بيئية",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
