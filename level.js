@@ -124,13 +124,7 @@ const levelSubjects = {
             "name": "العربية",
             "icon": "📝",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "التطبيقات النحوية",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "علوم الحياة والأرض",
