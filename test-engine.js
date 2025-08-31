@@ -18,16 +18,6 @@ const sampleQuestions = {
         "duration": 45,
         "questions": [
             {
-                "question": "Quelle est la forme correcte du pluriel de \"œil\"?",
-                "options": [
-                    "œils",
-                    "yeux",
-                    "œils",
-                    "oeux"
-                ],
-                "correct": 1
-            },
-            {
                 "question": "Complétez: \"Si j'avais de l'argent, j' ____ une voiture.\"",
                 "options": [
                     "achèterais",
