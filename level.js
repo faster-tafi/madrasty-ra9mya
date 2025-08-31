@@ -131,11 +131,6 @@ const levelSubjects = {
             "icon": "🧬",
             "lessons": [
                 {
-                    "title": "الوراثة المندلية المتقدمة",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "علم المناعة والأمراض",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
