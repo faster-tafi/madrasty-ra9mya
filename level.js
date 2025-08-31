@@ -116,13 +116,7 @@ const levelSubjects = {
             "name": "الفرنسية",
             "icon": "🇫🇷",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "Rédaction Française",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         }
     ],
     "second-bac": [
