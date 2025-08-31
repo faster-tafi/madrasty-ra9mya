@@ -200,13 +200,7 @@ const levelSubjects = {
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            "exercises": [
-                {
-                    "title": "تطبيقات الجبر الخطي",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الفلسفة",
