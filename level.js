@@ -100,11 +100,6 @@ const levelSubjects = {
             "lessons": [],
             "exercises": [
                 {
-                    "title": "مسائل جبرية معقدة",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "تمارين هندسية",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
