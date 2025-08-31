@@ -26,18 +26,7 @@ const sampleQuestions = {
     "first-bac-social": {
         "title": "اختبار الاجتماعيات - الأولى بكالوريا",
         "duration": 35,
-        "questions": [
-            {
-                "question": "أي قارة تضم أكبر عدد من الدول؟",
-                "options": [
-                    "آسيا",
-                    "أفريقيا",
-                    "أوروبا",
-                    "أمريكا الجنوبية"
-                ],
-                "correct": 1
-            }
-        ]
+        "questions": []
     },
     "first-bac-islamic": {
         "title": "اختبار التربية الإسلامية - الأولى بكالوريا",
