@@ -120,9 +120,53 @@ const levelSubjects = {
                 exercises: [
                     { title: 'تطبيقات عملية', downloadNumber: '01' },
                     { title: 'مشاريع برمجية', downloadNumber: '02' }
-                ]
-            }
-        ],
+                }
+            ]
+        },
+        {
+ name: 'الفرنسية',
+            icon: '🇫🇷',
+            lessons: [
+                { 
+                    title: 'Grammaire Avancée', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'Littérature Française', 
+                    downloadNumber: '02',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'Expression Écrite', 
+                    downloadNumber: '03',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'Communication Orale', 
+                    downloadNumber: '04',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ],
+            exercises: [
+                { 
+                    title: 'Exercices de Grammaire', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'Analyse de Textes', 
+                    downloadNumber: '02',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'Rédaction Française', 
+                    downloadNumber: '03',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ]
+        }
+    ],
     'first-bac': [
             {
                 name: 'العربية',
