@@ -659,40 +659,106 @@ const levelSubjects = {
             icon: '📝',
             lessons: [
                 { 
-                    title: 'الأدب العربي الحديث', 
+                    title: 'النصوص الأدبية', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'النحو والصرف المتقدم', 
+                    title: 'علم البلاغة', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'التعبير والإنشاء المتقدم', 
+                    title: 'القواعد النحوية', 
                     downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'النقد الأدبي', 
+                    title: 'التعبير والإنشاء', 
                     downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'تحليل النصوص الأدبية', 
+                    title: 'تحليل النصوص', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الكتابة الإبداعية', 
+                    title: 'تمارين البلاغة', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'التطبيقات النحوية', 
+                    title: 'تطبيقات نحوية', 
                     downloadNumber: '03',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ]
+        },
+        {
+            name: 'الاجتماعيات',
+            icon: '🌍',
+            lessons: [
+                { 
+                    title: 'التاريخ القديم', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'الجغرافيا الطبيعية', 
+                    downloadNumber: '02',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'التربية المدنية', 
+                    downloadNumber: '03',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ],
+            exercises: [
+                { 
+                    title: 'خرائط تاريخية', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'دراسة حالة جغرافية', 
+                    downloadNumber: '02',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ]
+        },
+        {
+            name: 'التربية الإسلامية',
+            icon: '🕌',
+            lessons: [
+                { 
+                    title: 'القرآن الكريم', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'الحديث الشريف', 
+                    downloadNumber: '02',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'الفقه الإسلامي', 
+                    downloadNumber: '03',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ],
+            exercises: [
+                { 
+                    title: 'حفظ القرآن', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'شرح الأحاديث', 
+                    downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
@@ -702,40 +768,30 @@ const levelSubjects = {
             icon: '🧬',
             lessons: [
                 { 
-                    title: 'الوراثة المندلية المتقدمة', 
+                    title: 'علم الأحياء', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'علم المناعة والأمراض', 
+                    title: 'علوم الأرض', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'البيولوجيا الجزيئية', 
+                    title: 'البيئة والتنمية', 
                     downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'الجيولوجيا المتقدمة', 
-                    downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'مسائل الوراثة المعقدة', 
+                    title: 'تجارب مخبرية', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'تجارب المناعة', 
+                    title: 'دراسة الكائنات', 
                     downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'دراسات بيئية', 
-                    downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
@@ -745,40 +801,30 @@ const levelSubjects = {
             icon: '⚛️',
             lessons: [
                 { 
-                    title: 'الموجات والاهتزازات', 
+                    title: 'الميكانيك', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الكهرباء المتناوبة', 
+                    title: 'الكهرباء الأساسية', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الفيزياء النووية', 
+                    title: 'الضوء والصوت', 
                     downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'الفيزياء الحديثة', 
-                    downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'مسائل الموجات المعقدة', 
+                    title: 'حل مسائل فيزيائية', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'تطبيقات الكهرباء', 
+                    title: 'تجارب عملية', 
                     downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'حسابات نووية', 
-                    downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
@@ -788,40 +834,30 @@ const levelSubjects = {
             icon: '📐',
             lessons: [
                 { 
-                    title: 'التحليل الرياضي المتقدم', 
+                    title: 'الجبر الأساسي', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الجبر الخطي والمصفوفات', 
+                    title: 'الهندسة المسطحة', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الهندسة الفضائية', 
+                    title: 'الإحصاء', 
                     downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'الإحصاء والاحتماليات', 
-                    downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'مسائل التفاضل والتكامل', 
+                    title: 'مسائل جبرية', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'تطبيقات الجبر الخطي', 
+                    title: 'تمارين هندسية', 
                     downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'مسائل الهندسة المعقدة', 
-                    downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
@@ -831,40 +867,30 @@ const levelSubjects = {
             icon: '🤔',
             lessons: [
                 { 
-                    title: 'نظرية المعرفة', 
+                    title: 'مدخل إلى الفلسفة', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'فلسفة الوجود والكينونة', 
+                    title: 'الفلسفة الأخلاقية', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الأخلاق والقيم', 
+                    title: 'فلسفة المعرفة', 
                     downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'الفلسفة السياسية', 
-                    downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'مقالات فلسفية متقدمة', 
+                    title: 'مقالات فلسفية أساسية', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'تحليل النصوص الفلسفية', 
+                    title: 'تحليل نصوص فلسفية', 
                     downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'المناقشات الفلسفية', 
-                    downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
@@ -874,40 +900,30 @@ const levelSubjects = {
             icon: '🇬🇧',
             lessons: [
                 { 
-                    title: 'Advanced Grammar & Syntax', 
+                    title: 'Basic Grammar', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'Literature Analysis', 
+                    title: 'Reading Comprehension', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'Academic Writing Skills', 
+                    title: 'Writing Fundamentals', 
                     downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'Critical Thinking', 
-                    downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'Complex Grammar Practice', 
+                    title: 'Grammar Exercises', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'Literary Analysis Essays', 
+                    title: 'Reading Practice', 
                     downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'Research Papers', 
-                    downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
@@ -917,40 +933,30 @@ const levelSubjects = {
             icon: '🇫🇷',
             lessons: [
                 { 
-                    title: 'Grammaire Approfondie', 
+                    title: 'Grammaire de Base', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'Littérature Contemporaine', 
+                    title: 'Vocabulaire Essentiel', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'Dissertation Française', 
+                    title: 'Expression Écrite', 
                     downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'Expression Orale Avancée', 
-                    downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'Analyse Littéraire Approfondie', 
+                    title: 'Exercices de Grammaire', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'Exercices de Style', 
+                    title: 'Rédaction Simple', 
                     downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'Débats et Discussions', 
-                    downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
