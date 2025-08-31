@@ -137,11 +137,6 @@ const levelSubjects = {
             "icon": "⚛️",
             "lessons": [
                 {
-                    "title": "الموجات والاهتزازات",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الكهرباء المتناوبة",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
