@@ -1,963 +1,957 @@
 // Level page JavaScript functionality
-
-// مواد كل مستوى مع الدروس والتمارين
+// مواد كل مستوى
 const levelSubjects = {
-    'common-core': [
+    "common-core": [
         {
-            name: 'العربية',
-            icon: '📝',
-            lessons: [
-                { 
-                    title: 'النصوص الأدبية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "العربية",
+            "icon": "📝",
+            "lessons": [
+                {
+                    "title": "النصوص الأدبية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'علم البلاغة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "علم البلاغة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'القواعد النحوية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "القواعد النحوية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'التعبير والإنشاء', 
-                    downloadNumber: '04',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "التعبير والإنشاء",
+                    "downloadNumber": "04",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'تحليل النصوص', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "تحليل النصوص",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تمارين البلاغة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تمارين البلاغة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تطبيقات نحوية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تطبيقات نحوية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الاجتماعيات',
-            icon: '🌍',
-            lessons: [
-                { 
-                    title: 'التاريخ القديم', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الاجتماعيات",
+            "icon": "🌍",
+            "lessons": [
+                {
+                    "title": "التاريخ القديم",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الجغرافيا الطبيعية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الجغرافيا الطبيعية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'التربية المدنية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "التربية المدنية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'خرائط تاريخية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "خرائط تاريخية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'دراسة حالة جغرافية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "دراسة حالة جغرافية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'التربية الإسلامية',
-            icon: '🕌',
-            lessons: [
-                { 
-                    title: 'القرآن الكريم', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "التربية الإسلامية",
+            "icon": "🕌",
+            "lessons": [
+                {
+                    "title": "القرآن الكريم",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الحديث الشريف', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الحديث الشريف",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الفقه الإسلامي', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الفقه الإسلامي",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'حفظ القرآن', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "حفظ القرآن",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'شرح الأحاديث', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "شرح الأحاديث",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'علوم الحياة والأرض',
-            icon: '🧬',
-            lessons: [
-                { 
-                    title: 'علم الأحياء', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "علوم الحياة والأرض",
+            "icon": "🧬",
+            "lessons": [
+                {
+                    "title": "علم الأحياء",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'علوم الأرض', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "علوم الأرض",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'البيئة والتنمية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "البيئة والتنمية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'تجارب مخبرية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "تجارب مخبرية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'دراسة الكائنات', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "دراسة الكائنات",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفيزياء',
-            icon: '⚛️',
-            lessons: [
-                { 
-                    title: 'الميكانيك', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفيزياء",
+            "icon": "⚛️",
+            "lessons": [
+                {
+                    "title": "الميكانيك",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الكهرباء الأساسية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الكهرباء الأساسية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الضوء والصوت', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الضوء والصوت",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'حل مسائل فيزيائية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "حل مسائل فيزيائية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تجارب عملية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تجارب عملية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الرياضيات',
-            icon: '📐',
-            lessons: [
-                { 
-                    title: 'الجبر الأساسي', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الرياضيات",
+            "icon": "📐",
+            "lessons": [
+                {
+                    "title": "الجبر الأساسي",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الهندسة المسطحة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الهندسة المسطحة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الإحصاء', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الإحصاء",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'مسائل جبرية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "مسائل جبرية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تمارين هندسية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تمارين هندسية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفلسفة',
-            icon: '🤔',
-            lessons: [
-                { 
-                    title: 'مدخل إلى الفلسفة', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفلسفة",
+            "icon": "🤔",
+            "lessons": [
+                {
+                    "title": "مدخل إلى الفلسفة",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الفلسفة الأخلاقية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الفلسفة الأخلاقية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'فلسفة المعرفة', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "فلسفة المعرفة",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'مقالات فلسفية أساسية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "مقالات فلسفية أساسية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تحليل نصوص فلسفية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تحليل نصوص فلسفية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الإنجليزية',
-            icon: '🇬🇧',
-            lessons: [
-                { 
-                    title: 'Basic Grammar', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الإنجليزية",
+            "icon": "🇬🇧",
+            "lessons": [
+                {
+                    "title": "Basic Grammar",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Reading Comprehension', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Reading Comprehension",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Writing Fundamentals', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Writing Fundamentals",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'Grammar Exercises', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "Grammar Exercises",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Reading Practice', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Reading Practice",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفرنسية',
-            icon: '🇫🇷',
-            lessons: [
-                { 
-                    title: 'Grammaire de Base', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفرنسية",
+            "icon": "🇫🇷",
+            "lessons": [
+                {
+                    "title": "Vocabulaire Essentiel",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Vocabulaire Essentiel', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'Expression Écrite', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Expression Écrite",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'Exercices de Grammaire', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "Exercices de Grammaire",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Rédaction Simple', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Rédaction Simple",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'المعلوميات',
-            icon: '💻',
-            lessons: [
-                { 
-                    title: 'مقدمة في البرمجة', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "المعلوميات",
+            "icon": "💻",
+            "lessons": [
+                {
+                    "title": "مقدمة في البرمجة",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'نظم التشغيل', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "نظم التشغيل",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الشبكات والإنترنت', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الشبكات والإنترنت",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'تمارين البرمجة', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "تمارين البرمجة",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'مشاريع تطبيقية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "مشاريع تطبيقية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         }
     ],
-    'first-bac': [
+    "first-bac": [
         {
-           name: 'العربية',
-            icon: '📝',
-            lessons: [
-                { 
-                    title: 'النصوص الأدبية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "العربية",
+            "icon": "📝",
+            "lessons": [
+                {
+                    "title": "النصوص الأدبية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'علم البلاغة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "علم البلاغة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'القواعد النحوية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "القواعد النحوية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'التعبير والإنشاء', 
-                    downloadNumber: '04',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "التعبير والإنشاء",
+                    "downloadNumber": "04",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'تحليل النصوص', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "تحليل النصوص",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تمارين البلاغة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تمارين البلاغة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تطبيقات نحوية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تطبيقات نحوية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الاجتماعيات',
-            icon: '🌍',
-            lessons: [
-                { 
-                    title: 'التاريخ القديم', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الاجتماعيات",
+            "icon": "🌍",
+            "lessons": [
+                {
+                    "title": "التاريخ القديم",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الجغرافيا الطبيعية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الجغرافيا الطبيعية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'التربية المدنية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "التربية المدنية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'خرائط تاريخية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "خرائط تاريخية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'دراسة حالة جغرافية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "دراسة حالة جغرافية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'التربية الإسلامية',
-            icon: '🕌',
-            lessons: [
-                { 
-                    title: 'القرآن الكريم', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "التربية الإسلامية",
+            "icon": "🕌",
+            "lessons": [
+                {
+                    "title": "القرآن الكريم",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الحديث الشريف', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الحديث الشريف",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الفقه الإسلامي', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الفقه الإسلامي",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'حفظ القرآن', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "حفظ القرآن",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'شرح الأحاديث', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "شرح الأحاديث",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'علوم الحياة والأرض',
-            icon: '🧬',
-            lessons: [
-                { 
-                    title: 'علم الأحياء', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "علوم الحياة والأرض",
+            "icon": "🧬",
+            "lessons": [
+                {
+                    "title": "علم الأحياء",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'علوم الأرض', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "علوم الأرض",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'البيئة والتنمية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "البيئة والتنمية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'تجارب مخبرية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "تجارب مخبرية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'دراسة الكائنات', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "دراسة الكائنات",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفيزياء',
-            icon: '⚛️',
-            lessons: [
-                { 
-                    title: 'الميكانيك', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفيزياء",
+            "icon": "⚛️",
+            "lessons": [
+                {
+                    "title": "الميكانيك",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الكهرباء الأساسية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الكهرباء الأساسية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الضوء والصوت', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الضوء والصوت",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'حل مسائل فيزيائية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "حل مسائل فيزيائية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تجارب عملية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تجارب عملية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الرياضيات',
-            icon: '📐',
-            lessons: [
-                { 
-                    title: 'الجبر الأساسي', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الرياضيات",
+            "icon": "📐",
+            "lessons": [
+                {
+                    "title": "الجبر الأساسي",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الهندسة المسطحة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الهندسة المسطحة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الإحصاء', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الإحصاء",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'مسائل جبرية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "مسائل جبرية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تمارين هندسية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تمارين هندسية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفلسفة',
-            icon: '🤔',
-            lessons: [
-                { 
-                    title: 'مدخل إلى الفلسفة', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفلسفة",
+            "icon": "🤔",
+            "lessons": [
+                {
+                    "title": "مدخل إلى الفلسفة",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الفلسفة الأخلاقية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الفلسفة الأخلاقية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'فلسفة المعرفة', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "فلسفة المعرفة",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'مقالات فلسفية أساسية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "مقالات فلسفية أساسية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تحليل نصوص فلسفية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تحليل نصوص فلسفية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الإنجليزية',
-            icon: '🇬🇧',
-            lessons: [
-                { 
-                    title: 'Basic Grammar', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الإنجليزية",
+            "icon": "🇬🇧",
+            "lessons": [
+                {
+                    "title": "Basic Grammar",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Reading Comprehension', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Reading Comprehension",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Writing Fundamentals', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Writing Fundamentals",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'Grammar Exercises', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "Grammar Exercises",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Reading Practice', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Reading Practice",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفرنسية',
-            icon: '🇫🇷',
-            lessons: [
-                { 
-                    title: 'Grammaire de Base', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفرنسية",
+            "icon": "🇫🇷",
+            "lessons": [
+                {
+                    "title": "Grammaire de Base",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Vocabulaire Essentiel', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Vocabulaire Essentiel",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Expression Écrite', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Expression Écrite",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'Exercices de Grammaire', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "Exercices de Grammaire",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Rédaction Simple', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Rédaction Simple",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         }
     ],
-    'second-bac': [
+    "second-bac": [
         {
-            name: 'العربية',
-            icon: '📝',
-            lessons: [
-                { 
-                    title: 'النصوص الأدبية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "العربية",
+            "icon": "📝",
+            "lessons": [
+                {
+                    "title": "النصوص الأدبية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'علم البلاغة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "علم البلاغة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'القواعد النحوية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "القواعد النحوية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'التعبير والإنشاء', 
-                    downloadNumber: '04',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "التعبير والإنشاء",
+                    "downloadNumber": "04",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'تحليل النصوص', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "تحليل النصوص",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تمارين البلاغة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تمارين البلاغة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تطبيقات نحوية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تطبيقات نحوية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الاجتماعيات',
-            icon: '🌍',
-            lessons: [
-                { 
-                    title: 'التاريخ القديم', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الاجتماعيات",
+            "icon": "🌍",
+            "lessons": [
+                {
+                    "title": "التاريخ القديم",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الجغرافيا الطبيعية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الجغرافيا الطبيعية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'التربية المدنية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "التربية المدنية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'خرائط تاريخية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "خرائط تاريخية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'دراسة حالة جغرافية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "دراسة حالة جغرافية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'التربية الإسلامية',
-            icon: '🕌',
-            lessons: [
-                { 
-                    title: 'القرآن الكريم', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "التربية الإسلامية",
+            "icon": "🕌",
+            "lessons": [
+                {
+                    "title": "القرآن الكريم",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الحديث الشريف', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الحديث الشريف",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الفقه الإسلامي', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الفقه الإسلامي",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'حفظ القرآن', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "حفظ القرآن",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'شرح الأحاديث', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "شرح الأحاديث",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'علوم الحياة والأرض',
-            icon: '🧬',
-            lessons: [
-                { 
-                    title: 'علم الأحياء', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "علوم الحياة والأرض",
+            "icon": "🧬",
+            "lessons": [
+                {
+                    "title": "علم الأحياء",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'علوم الأرض', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "علوم الأرض",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'البيئة والتنمية', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "البيئة والتنمية",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'تجارب مخبرية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "تجارب مخبرية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'دراسة الكائنات', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "دراسة الكائنات",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفيزياء',
-            icon: '⚛️',
-            lessons: [
-                { 
-                    title: 'الميكانيك', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفيزياء",
+            "icon": "⚛️",
+            "lessons": [
+                {
+                    "title": "الميكانيك",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الكهرباء الأساسية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الكهرباء الأساسية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الضوء والصوت', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الضوء والصوت",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'حل مسائل فيزيائية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "حل مسائل فيزيائية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تجارب عملية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تجارب عملية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الرياضيات',
-            icon: '📐',
-            lessons: [
-                { 
-                    title: 'الجبر الأساسي', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الرياضيات",
+            "icon": "📐",
+            "lessons": [
+                {
+                    "title": "الجبر الأساسي",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الهندسة المسطحة', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الهندسة المسطحة",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الإحصاء', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الإحصاء",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'مسائل جبرية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "مسائل جبرية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تمارين هندسية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تمارين هندسية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفلسفة',
-            icon: '🤔',
-            lessons: [
-                { 
-                    title: 'مدخل إلى الفلسفة', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفلسفة",
+            "icon": "🤔",
+            "lessons": [
+                {
+                    "title": "مدخل إلى الفلسفة",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'الفلسفة الأخلاقية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "الفلسفة الأخلاقية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'فلسفة المعرفة', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "فلسفة المعرفة",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'مقالات فلسفية أساسية', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "مقالات فلسفية أساسية",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'تحليل نصوص فلسفية', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "تحليل نصوص فلسفية",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الإنجليزية',
-            icon: '🇬🇧',
-            lessons: [
-                { 
-                    title: 'Basic Grammar', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الإنجليزية",
+            "icon": "🇬🇧",
+            "lessons": [
+                {
+                    "title": "Basic Grammar",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Reading Comprehension', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Reading Comprehension",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Writing Fundamentals', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Writing Fundamentals",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'Grammar Exercises', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "Grammar Exercises",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Reading Practice', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Reading Practice",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
         {
-            name: 'الفرنسية',
-            icon: '🇫🇷',
-            lessons: [
-                { 
-                    title: 'Grammaire de Base', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "name": "الفرنسية",
+            "icon": "🇫🇷",
+            "lessons": [
+                {
+                    "title": "Grammaire de Base",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Vocabulaire Essentiel', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Vocabulaire Essentiel",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Expression Écrite', 
-                    downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Expression Écrite",
+                    "downloadNumber": "03",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            exercises: [
-                { 
-                    title: 'Exercices de Grammaire', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+            "exercises": [
+                {
+                    "title": "Exercices de Grammaire",
+                    "downloadNumber": "01",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 },
-                { 
-                    title: 'Rédaction Simple', 
-                    downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                {
+                    "title": "Rédaction Simple",
+                    "downloadNumber": "02",
+                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         }
@@ -966,10 +960,12 @@ const levelSubjects = {
 
 // عناوين المستويات
 const levelTitles = {
-    'common-core': 'دروس الجذع المشترك',
-    'first-bac': 'دروس الأولى بكالوريا',
-    'second-bac': 'دروس الثانية بكالوريا'
+    "common-core": "دروس الجذع المشترك",
+    "first-bac": "دروس الأولى بكالوريا",
+    "second-bac": "دروس الثانية بكالوريا"
 };
+
+// باقي الكود الأصلي للملف إذا كان موجوداً
 
 document.addEventListener('DOMContentLoaded', function() {
     // الحصول على معاملات URL
