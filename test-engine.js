@@ -1057,18 +1057,7 @@ const sampleQuestions = {
     "second-bac-math": {
         "title": "اختبار الرياضيات - الثانية بكالوريا",
         "duration": 50,
-        "questions": [
-            {
-                "question": "ما هو قيمة sin(90°)؟",
-                "options": [
-                    "0",
-                    "1",
-                    "-1",
-                    "0.5"
-                ],
-                "correct": 1
-            }
-        ]
+        "questions": []
     },
     "second-bac-physics": {
         "title": "اختبار الفيزياء - الثانية بكالوريا",
