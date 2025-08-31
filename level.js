@@ -178,13 +178,7 @@ const levelSubjects = {
         {
             "name": "الرياضيات",
             "icon": "📐",
-            "lessons": [
-                {
-                    "title": "الإحصاء والاحتماليات",
-                    "downloadNumber": "04",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
