@@ -126,11 +126,6 @@ const levelSubjects = {
             "lessons": [],
             "exercises": [
                 {
-                    "title": "تحليل النصوص الأدبية",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الكتابة الإبداعية",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
