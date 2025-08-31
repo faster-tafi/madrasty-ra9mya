@@ -136,13 +136,7 @@ const levelSubjects = {
             "name": "الفيزياء",
             "icon": "⚛️",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "تطبيقات الكهرباء",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الرياضيات",
