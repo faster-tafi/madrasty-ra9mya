@@ -125,11 +125,6 @@ const levelSubjects = {
             "icon": "📝",
             "lessons": [
                 {
-                    "title": "الأدب العربي الحديث",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "النحو والصرف المتقدم",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
