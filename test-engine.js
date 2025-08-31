@@ -1059,16 +1059,6 @@ const sampleQuestions = {
         "duration": 50,
         "questions": [
             {
-                "question": "ما هو مشتق الدالة f(x) = x²؟",
-                "options": [
-                    "x",
-                    "2x",
-                    "x²",
-                    "2"
-                ],
-                "correct": 1
-            },
-            {
                 "question": "ما هو حل المعادلة x² - 4 = 0؟",
                 "options": [
                     "x = 2",
