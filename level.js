@@ -147,13 +147,7 @@ const levelSubjects = {
         {
             "name": "الفلسفة",
             "icon": "🤔",
-            "lessons": [
-                {
-                    "title": "الفلسفة السياسية",
-                    "downloadNumber": "04",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": [
                 {
                     "title": "مقالات فلسفية متقدمة",
