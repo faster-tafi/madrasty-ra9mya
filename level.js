@@ -118,11 +118,6 @@ const levelSubjects = {
             "lessons": [],
             "exercises": [
                 {
-                    "title": "Analyse de Textes",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "Rédaction Française",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
