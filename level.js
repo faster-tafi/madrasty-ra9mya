@@ -651,40 +651,34 @@ const levelSubjects = {
             icon: '📝',
             lessons: [
                 { 
-                    title: 'الأدب العربي الحديث', 
+                      name: 'التربية الإسلامية',
+            icon: '🕌',
+            lessons: [
+                { 
+                    title: 'القرآن الكريم', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'النحو والصرف المتقدم', 
+                    title: 'الحديث الشريف', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'التعبير والإنشاء المتقدم', 
+                    title: 'الفقه الإسلامي', 
                     downloadNumber: '03',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'النقد الأدبي', 
-                    downloadNumber: '04',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'تحليل النصوص الأدبية', 
+                    title: 'حفظ القرآن', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الكتابة الإبداعية', 
+                    title: 'شرح الأحاديث', 
                     downloadNumber: '02',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'التطبيقات النحوية', 
-                    downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ]
