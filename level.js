@@ -148,13 +148,7 @@ const levelSubjects = {
             "name": "الفلسفة",
             "icon": "🤔",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "المناقشات الفلسفية",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الإنجليزية",
