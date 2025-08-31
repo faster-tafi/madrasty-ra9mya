@@ -137,11 +137,6 @@ const levelSubjects = {
             "icon": "⚛️",
             "lessons": [
                 {
-                    "title": "الفيزياء النووية",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الفيزياء الحديثة",
                     "downloadNumber": "04",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
