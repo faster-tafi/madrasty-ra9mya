@@ -137,11 +137,6 @@ const levelSubjects = {
             "icon": "⚛️",
             "lessons": [
                 {
-                    "title": "الكهرباء المتناوبة",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الفيزياء النووية",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
