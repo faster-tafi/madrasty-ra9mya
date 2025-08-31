@@ -426,29 +426,57 @@ const levelSubjects = {
             icon: '🕌',
             lessons: [
                 { 
-                    title: 'القرآن وعلومه', 
-                    downloadNumber: '01',
-                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
-                },
-                { 
-                    title: 'الحديث وعلومه', 
+                    title: 'علوم الأرض', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'الفقه المقارن', 
+                    title: 'البيئة والتنمية', 
                     downloadNumber: '03',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
             ],
             exercises: [
                 { 
-                    title: 'تفسير آيات قرآنية', 
+                    title: 'تجارب مخبرية', 
                     downloadNumber: '01',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 },
                 { 
-                    title: 'دراسة الأحاديث', 
+                    title: 'دراسة الكائنات', 
+                    downloadNumber: '02',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ]
+        },
+        {
+            name: 'الفيزياء',
+            icon: '⚛️',
+            lessons: [
+                { 
+                    title: 'الميكانيك', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'الكهرباء الأساسية', 
+                    downloadNumber: '02',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'الضوء والصوت', 
+                    downloadNumber: '03',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                }
+            ],
+            exercises: [
+                { 
+                    title: 'حل مسائل فيزيائية', 
+                    downloadNumber: '01',
+                    downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
+                },
+                { 
+                    title: 'تجارب عملية', 
                     downloadNumber: '02',
                     downloadUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing'
                 }
