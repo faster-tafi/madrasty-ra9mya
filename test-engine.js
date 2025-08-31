@@ -1206,7 +1206,16 @@ const sampleQuestions = {
     "second-bac-physics": {
         "title": "اختبار الفيزياء - الثانية بكالوريا",
         "duration": 45,
-        "questions": []
+        "questions": [
+            {
+                "question": "سوؤال تجريبي",
+                "options": [
+                    "الخيار الصحيح",
+                    "الخيار الخطأ"
+                ],
+                "correct": 0
+            }
+        ]
     },
     "second-bac-biology": {
         "title": "اختبار علوم الحياة والأرض - الثانية بكالوريا",
