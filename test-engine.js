@@ -28,16 +28,6 @@ const sampleQuestions = {
         "duration": 35,
         "questions": [
             {
-                "question": "ما هي عاصمة المغرب؟",
-                "options": [
-                    "الدار البيضاء",
-                    "الرباط",
-                    "فاس",
-                    "مراكش"
-                ],
-                "correct": 1
-            },
-            {
                 "question": "أي قارة تضم أكبر عدد من الدول؟",
                 "options": [
                     "آسيا",
