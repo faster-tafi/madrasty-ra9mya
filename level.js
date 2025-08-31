@@ -180,11 +180,6 @@ const levelSubjects = {
             "icon": "📐",
             "lessons": [
                 {
-                    "title": "الهندسة الفضائية",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الإحصاء والاحتماليات",
                     "downloadNumber": "04",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
