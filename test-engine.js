@@ -28,16 +28,6 @@ const sampleQuestions = {
         "duration": 35,
         "questions": [
             {
-                "question": "متى بدأت الحرب العالمية الأولى؟",
-                "options": [
-                    "1914",
-                    "1915",
-                    "1916",
-                    "1917"
-                ],
-                "correct": 0
-            },
-            {
                 "question": "ما هي عاصمة المغرب؟",
                 "options": [
                     "الدار البيضاء",
