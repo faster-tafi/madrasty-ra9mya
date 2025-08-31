@@ -1128,18 +1128,7 @@ const sampleQuestions = {
     "second-bac-english": {
         "title": "اختبار الإنجليزية - الثانية بكالوريا",
         "duration": 40,
-        "questions": [
-            {
-                "question": "Which is the correct passive form of \"They built a house\"?",
-                "options": [
-                    "A house built by them",
-                    "A house was built by them",
-                    "A house is built by them",
-                    "A house has built by them"
-                ],
-                "correct": 1
-            }
-        ]
+        "questions": []
     }
 };
 
