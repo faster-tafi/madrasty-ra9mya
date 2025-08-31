@@ -1076,18 +1076,7 @@ const sampleQuestions = {
     "second-bac-biology": {
         "title": "اختبار علوم الحياة والأرض - الثانية بكالوريا",
         "duration": 40,
-        "questions": [
-            {
-                "question": "كم عدد الكروموسومات في الخلية البشرية العادية؟",
-                "options": [
-                    "23",
-                    "44",
-                    "46",
-                    "48"
-                ],
-                "correct": 2
-            }
-        ]
+        "questions": []
     },
     "second-bac-philosophy": {
         "title": "اختبار الفلسفة - الثانية بكالوريا",
