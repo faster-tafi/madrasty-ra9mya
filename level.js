@@ -37,11 +37,6 @@ const levelSubjects = {
             "icon": "📐",
             "lessons": [
                 {
-                    "title": "الهندسة المسطحة",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الإحصاء",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
