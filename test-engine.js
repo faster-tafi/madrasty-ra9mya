@@ -16,18 +16,7 @@ const sampleQuestions = {
     "first-bac-french": {
         "title": "اختبار الفرنسية - الأولى بكالوريا",
         "duration": 45,
-        "questions": [
-            {
-                "question": "Conjuguez \"finir\" à la première personne du pluriel au présent:",
-                "options": [
-                    "nous finissons",
-                    "nous finions",
-                    "nous finirons",
-                    "nous avons fini"
-                ],
-                "correct": 0
-            }
-        ]
+        "questions": []
     },
     "first-bac-arabic": {
         "title": "اختبار العربية - الأولى بكالوريا",
