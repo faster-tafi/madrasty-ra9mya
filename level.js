@@ -79,11 +79,6 @@ const levelSubjects = {
                     "title": "خرائط تاريخية",
                     "downloadNumber": "01",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
-                    "title": "دراسة حالة جغرافية",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
