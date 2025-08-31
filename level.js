@@ -202,11 +202,6 @@ const levelSubjects = {
             ],
             "exercises": [
                 {
-                    "title": "مسائل التفاضل والتكامل",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "تطبيقات الجبر الخطي",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
