@@ -126,11 +126,6 @@ const levelSubjects = {
             "lessons": [],
             "exercises": [
                 {
-                    "title": "الكتابة الإبداعية",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "التطبيقات النحوية",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
