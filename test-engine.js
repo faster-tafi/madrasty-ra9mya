@@ -1102,18 +1102,7 @@ const sampleQuestions = {
     "second-bac-philosophy": {
         "title": "اختبار الفلسفة - الثانية بكالوريا",
         "duration": 35,
-        "questions": [
-            {
-                "question": "من هو فيلسوف العقلانية الحديثة؟",
-                "options": [
-                    "أفلاطون",
-                    "ديكارت",
-                    "كانط",
-                    "نيتشه"
-                ],
-                "correct": 1
-            }
-        ]
+        "questions": []
     },
     "second-bac-english": {
         "title": "اختبار الإنجليزية - الثانية بكالوريا",
