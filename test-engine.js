@@ -1059,16 +1059,6 @@ const sampleQuestions = {
         "duration": 50,
         "questions": [
             {
-                "question": "ما هو حل المعادلة x² - 4 = 0؟",
-                "options": [
-                    "x = 2",
-                    "x = ±2",
-                    "x = 4",
-                    "x = ±4"
-                ],
-                "correct": 1
-            },
-            {
                 "question": "ما هو قيمة sin(90°)؟",
                 "options": [
                     "0",
