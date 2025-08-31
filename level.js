@@ -105,11 +105,6 @@ const levelSubjects = {
             "icon": "🤔",
             "lessons": [
                 {
-                    "title": "مدخل إلى الفلسفة",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "فلسفة المعرفة",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
