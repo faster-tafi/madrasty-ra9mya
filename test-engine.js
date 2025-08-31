@@ -18,16 +18,6 @@ const sampleQuestions = {
         "duration": 45,
         "questions": [
             {
-                "question": "Quel mot est masculin?",
-                "options": [
-                    "La table",
-                    "Le livre",
-                    "La chaise",
-                    "La fenêtre"
-                ],
-                "correct": 1
-            },
-            {
                 "question": "Conjuguez \"finir\" à la première personne du pluriel au présent:",
                 "options": [
                     "nous finissons",
