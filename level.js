@@ -125,11 +125,6 @@ const levelSubjects = {
             "icon": "📝",
             "lessons": [
                 {
-                    "title": "النحو والصرف المتقدم",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "التعبير والإنشاء المتقدم",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
