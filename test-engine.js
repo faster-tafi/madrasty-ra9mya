@@ -21,18 +21,7 @@ const sampleQuestions = {
     "first-bac-arabic": {
         "title": "اختبار العربية - الأولى بكالوريا",
         "duration": 40,
-        "questions": [
-            {
-                "question": "ما نوع الأسلوب في \"يا طالب العلم اجتهد\"؟",
-                "options": [
-                    "خبري",
-                    "إنشائي طلبي",
-                    "إنشائي غير طلبي",
-                    "تعجبي"
-                ],
-                "correct": 1
-            }
-        ]
+        "questions": []
     },
     "first-bac-social": {
         "title": "اختبار الاجتماعيات - الأولى بكالوريا",
