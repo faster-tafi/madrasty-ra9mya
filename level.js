@@ -125,11 +125,6 @@ const levelSubjects = {
             "icon": "📝",
             "lessons": [
                 {
-                    "title": "التعبير والإنشاء المتقدم",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "النقد الأدبي",
                     "downloadNumber": "04",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
