@@ -104,13 +104,7 @@ const levelSubjects = {
             "name": "الفلسفة",
             "icon": "🤔",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "مقالات فلسفية",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الإنجليزية",
