@@ -196,13 +196,7 @@ const levelSubjects = {
         {
             "name": "الفرنسية",
             "icon": "🇫🇷",
-            "lessons": [
-                {
-                    "title": "Grammaire Approfondie",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": [
                 {
                     "title": "Analyse Littéraire Approfondie",
