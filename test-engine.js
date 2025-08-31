@@ -1130,16 +1130,6 @@ const sampleQuestions = {
         "duration": 40,
         "questions": [
             {
-                "question": "Choose the correct form: \"I have ____ this book.\"",
-                "options": [
-                    "read",
-                    "readed",
-                    "reading",
-                    "reads"
-                ],
-                "correct": 0
-            },
-            {
                 "question": "Which is the correct passive form of \"They built a house\"?",
                 "options": [
                     "A house built by them",
