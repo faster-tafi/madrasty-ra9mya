@@ -42,13 +42,7 @@ const levelSubjects = {
             "name": "الفلسفة",
             "icon": "🤔",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "تحليل نصوص فلسفية",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الإنجليزية",
