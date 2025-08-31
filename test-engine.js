@@ -18,16 +18,6 @@ const sampleQuestions = {
         "duration": 45,
         "questions": [
             {
-                "question": "Complétez: \"Si j'avais de l'argent, j' ____ une voiture.\"",
-                "options": [
-                    "achèterais",
-                    "achèterai",
-                    "achète",
-                    "ai acheté"
-                ],
-                "correct": 0
-            },
-            {
                 "question": "Quel mot est masculin?",
                 "options": [
                     "La table",
