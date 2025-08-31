@@ -1206,18 +1206,7 @@ const sampleQuestions = {
     "second-bac-physics": {
         "title": "اختبار الفيزياء - الثانية بكالوريا",
         "duration": 45,
-        "questions": [
-            {
-                "question": "ما هي سرعة الضوء في الفراغ؟",
-                "options": [
-                    "3×10⁸ m/s",
-                    "3×10⁷ m/s",
-                    "3×10⁹ m/s",
-                    "3×10⁶ m/s"
-                ],
-                "correct": 0
-            }
-        ]
+        "questions": []
     },
     "second-bac-biology": {
         "title": "اختبار علوم الحياة والأرض - الثانية بكالوريا",
