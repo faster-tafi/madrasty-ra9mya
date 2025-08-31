@@ -562,6 +562,8 @@ const levelTitles = {
 
 // باقي الكود الأصلي للملف إذا كان موجوداً
 
+// باقي الكود الأصلي للملف إذا كان موجوداً
+
 document.addEventListener('DOMContentLoaded', function() {
     // الحصول على معاملات URL
     const urlParams = new URLSearchParams(window.location.search);
