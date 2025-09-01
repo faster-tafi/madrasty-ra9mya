@@ -141,11 +141,6 @@ const levelSubjects = {
                     "title": "حفظ القرآن",
                     "downloadNumber": "01",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
-                    "title": "شرح الأحاديث",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ]
         },
