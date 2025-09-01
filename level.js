@@ -143,11 +143,6 @@ const levelSubjects = {
             "icon": "🧬",
             "lessons": [
                 {
-                    "title": "علوم الأرض",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "البيئة والتنمية",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
