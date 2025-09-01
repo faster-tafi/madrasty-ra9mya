@@ -85,13 +85,7 @@ const levelSubjects = {
         {
             "name": "علوم الحياة والأرض",
             "icon": "🧬",
-            "lessons": [
-                {
-                    "title": "البيئة والتنمية",
-                    "downloadNumber": "03",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ],
+            "lessons": [],
             "exercises": [
                 {
                     "title": "تجارب مخبرية",
