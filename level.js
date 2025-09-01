@@ -136,13 +136,7 @@ const levelSubjects = {
             "name": "التربية الإسلامية",
             "icon": "🕌",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "حفظ القرآن",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "علوم الحياة والأرض",
