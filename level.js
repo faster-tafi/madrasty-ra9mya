@@ -286,13 +286,7 @@ const levelSubjects = {
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
                 }
             ],
-            "exercises": [
-                {
-                    "title": "دراسة حالة جغرافية",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "التربية الإسلامية",
