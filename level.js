@@ -226,13 +226,7 @@ const levelSubjects = {
             "name": "الفرنسية",
             "icon": "🇫🇷",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "Rédaction Simple",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         }
     ]
 };
