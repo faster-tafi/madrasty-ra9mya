@@ -219,11 +219,6 @@ const levelSubjects = {
             "icon": "🇬🇧",
             "lessons": [
                 {
-                    "title": "Basic Grammar",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "Reading Comprehension",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
@@ -598,6 +593,8 @@ const levelTitles = {
     "first-bac": "دروس الأولى بكالوريا",
     "second-bac": "دروس الثانية بكالوريا"
 };
+
+// باقي الكود الأصلي للملف إذا كان موجوداً
 
 // باقي الكود الأصلي للملف إذا كان موجوداً
 
