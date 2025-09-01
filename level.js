@@ -137,11 +137,6 @@ const levelSubjects = {
             "icon": "🕌",
             "lessons": [
                 {
-                    "title": "الحديث الشريف",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الفقه الإسلامي",
                     "downloadNumber": "03",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
