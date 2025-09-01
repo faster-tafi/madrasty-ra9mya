@@ -142,13 +142,7 @@ const levelSubjects = {
             "name": "علوم الحياة والأرض",
             "icon": "🧬",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "تجارب مخبرية",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الفيزياء",
