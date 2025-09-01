@@ -150,11 +150,6 @@ const levelSubjects = {
             "lessons": [],
             "exercises": [
                 {
-                    "title": "حل مسائل فيزيائية",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "تجارب عملية",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
