@@ -227,11 +227,6 @@ const levelSubjects = {
             "icon": "🇫🇷",
             "lessons": [
                 {
-                    "title": "Grammaire de Base",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "Vocabulaire Essentiel",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
