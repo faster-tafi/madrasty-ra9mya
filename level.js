@@ -155,11 +155,6 @@ const levelSubjects = {
             "icon": "📐",
             "lessons": [
                 {
-                    "title": "الجبر الأساسي",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
-                },
-                {
                     "title": "الهندسة المسطحة",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
