@@ -6,13 +6,7 @@ const levelSubjects = {
             "name": "العربية",
             "icon": "📝",
             "lessons": [],
-            "exercises": [
-                {
-                    "title": "تجريبي",
-                    "downloadNumber": "1",
-                    "url": "https://689b459b-8f12-4f01-9ace-862542812045-00-2uov3qt90wsl5.sisko.replit.dev/"
-                }
-            ]
+            "exercises": []
         },
         {
             "name": "الاجتماعيات",
