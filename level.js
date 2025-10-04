@@ -123,13 +123,7 @@ const levelSubjects = {
         {
             "name": "العربية",
             "icon": "📝",
-            "lessons": [
-                {
-                    "title": "الاشتقاق",
-                    "downloadNumber": "1",
-                    "downloadUrl": ""
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
