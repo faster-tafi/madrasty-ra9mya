@@ -5,13 +5,7 @@ const levelSubjects = {
         {
             "name": "العربية",
             "icon": "📝",
-            "lessons": [
-                {
-                    "title": "الشعر العربي",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/sample2/view"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
