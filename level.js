@@ -29,13 +29,7 @@ const levelSubjects = {
         {
             "name": "علوم الحياة والأرض",
             "icon": "🧬",
-            "lessons": [
-                {
-                    "title": "امين التافي اااا",
-                    "downloadNumber": "1",
-                    "downloadUrl": "https://replit.com/@aminetafi123/CyanIncompleteAnimatronics"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
