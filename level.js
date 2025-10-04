@@ -29,13 +29,7 @@ const levelSubjects = {
         {
             "name": "الفيزياء",
             "icon": "⚛️",
-            "lessons": [
-                {
-                    "title": "امين التافي",
-                    "downloadNumber": "1",
-                    "downloadUrl": "https://replit.com/@aminetafi123/CyanIncompleteAnimatronics"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
