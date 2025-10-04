@@ -27,11 +27,6 @@ const levelSubjects = {
                     "title": "امين التافي",
                     "downloadNumber": "1",
                     "downloadUrl": "https://replit.com/@aminetafi123/CyanIncompleteAnim"
-                },
-                {
-                    "title": "الاشتقاق 2",
-                    "downloadNumber": "2",
-                    "downloadUrl": "https://replit.com/@aminetafi123/CyanIncompleteAnimatronics"
                 }
             ],
             "exercises": []
