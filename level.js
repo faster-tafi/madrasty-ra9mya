@@ -41,11 +41,6 @@ const levelSubjects = {
                     "title": "امين التافي اااا",
                     "downloadNumber": "2",
                     "downloadUrl": "https://replit.com/@aminetafi123/CyanIncompleteAnimatronics"
-                },
-                {
-                    "title": "امين التافي اااا",
-                    "downloadNumber": "2",
-                    "downloadUrl": "https://replit.com/@aminetafi123/CyanIncompleteAnimatronics"
                 }
             ]
         },
