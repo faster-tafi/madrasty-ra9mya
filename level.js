@@ -102,13 +102,7 @@ const levelSubjects = {
         {
             "name": "العربية",
             "icon": "📝",
-            "lessons": [
-                {
-                    "title": "امين التافي اااا",
-                    "downloadNumber": "1",
-                    "downloadUrl": "https://replit.com/@aminetafi123/CyanIncomplete"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
