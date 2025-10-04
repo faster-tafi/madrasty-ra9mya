@@ -21,16 +21,7 @@ const sampleQuestions = {
     "first-bac-arabic": {
         "title": "اختبار العربية - الأولى بكالوريا",
         "duration": 40,
-        "questions": [
-            {
-                "question": "تجريبي",
-                "options": [
-                    "يسسسسسسسسي",
-                    "ييييييي"
-                ],
-                "correct": 1
-            }
-        ]
+        "questions": []
     },
     "first-bac-social": {
         "title": "اختبار الاجتماعيات - الأولى بكالوريا",
