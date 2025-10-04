@@ -7,11 +7,6 @@ const levelSubjects = {
             "icon": "📝",
             "lessons": [
                 {
-                    "title": "النصوص الأدبية",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/sample1/view"
-                },
-                {
                     "title": "الشعر العربي",
                     "downloadNumber": "02",
                     "downloadUrl": "https://drive.google.com/file/d/sample2/view"
