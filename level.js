@@ -5,18 +5,7 @@ const levelSubjects = {
         {
             "name": "العربية",
             "icon": "📝",
-            "lessons": [
-                {
-                    "title": "النصوص الأدبية",
-                    "downloadNumber": "01",
-                    "downloadUrl": "https://drive.google.com/file/d/sample1/view"
-                },
-                {
-                    "title": "الشعر العربي",
-                    "downloadNumber": "02",
-                    "downloadUrl": "https://drive.google.com/file/d/sample2/view"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
@@ -75,13 +64,7 @@ const levelSubjects = {
         {
             "name": "الرياضيات",
             "icon": "📐",
-            "lessons": [
-                {
-                    "title": "امين التافي اااا",
-                    "downloadNumber": "1",
-                    "downloadUrl": "https://replit.com/@aminetafi123/CyanIncompleteAnimatronics"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
@@ -113,13 +96,7 @@ const levelSubjects = {
         {
             "name": "العربية",
             "icon": "📝",
-            "lessons": [
-                {
-                    "title": "امين التافي اااا",
-                    "downloadNumber": "1",
-                    "downloadUrl": "https://replit.com/@aminetafi123/CyanIncomplete"
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
@@ -187,7 +164,13 @@ const levelSubjects = {
         {
             "name": "التربية الإسلامية",
             "icon": "🕌",
-            "lessons": [],
+            "lessons": [
+                {
+                    "title": "جميع دروس اولى بكالوريا",
+                    "downloadNumber": "1",
+                    "downloadUrl": "https://www.mediafire.com/file/uxys0jeor33l2o3/%25D8%25AF%25D8%25B1%25D9%2588%25D8%25B3_%25D8%25A7%25D9%2584%25D8%25A3%25D9%2588%25D9%2584%25D9%2589_%25D8%25A8%25D8%25A7%25D9%2583_%25D8%25A7%25D9%2584%25D8%25AA%25D8%25B1%25D8%25A8%25D9%258A%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25A5%25D8%25B3%25D9%2584%25D8%25A7%25D9%2585%25D9%258A%25D8%25A9_%25D9%2583%25D8%25A7%25D9%2585%25D9%2584%25D8%25A9.pdf/file"
+                }
+            ],
             "exercises": []
         },
         {
@@ -614,21 +597,7 @@ const qcmData = {
             "lessons": {}
         },
         "التربية الإسلامية": {
-            "lessons": {
-                "جميع دروس اولى بكالوريا": [
-                    {
-                        "question": "1",
-                        "options": [
-                            "111111111112",
-                            "1111111121",
-                            "11111121",
-                            "11111212"
-                        ],
-                        "correct": 2,
-                        "explanation": "ضضضضضضضض212"
-                    }
-                ]
-            }
+            "lessons": {}
         },
         "علوم الحياة والأرض": {
             "lessons": {}
