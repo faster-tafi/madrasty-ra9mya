@@ -123,13 +123,7 @@ const levelSubjects = {
         {
             "name": "العربية",
             "icon": "📝",
-            "lessons": [
-                {
-                    "title": "الاشتقاق",
-                    "downloadNumber": "1",
-                    "downloadUrl": ""
-                }
-            ],
+            "lessons": [],
             "exercises": []
         },
         {
@@ -426,7 +420,19 @@ const qcmData = {
     "second-bac": {
         "العربية": {
             "lessons": {
-                "الاشتقاق": []
+                "الاشتقاق": [
+                    {
+                        "question": "aaaaa",
+                        "options": [
+                            "aaa",
+                            "aaa",
+                            "&&&",
+                            "&&&"
+                        ],
+                        "correct": 3,
+                        "explanation": ""
+                    }
+                ]
             }
         },
         "الاجتماعيات": {
