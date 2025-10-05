@@ -426,19 +426,7 @@ const qcmData = {
     "second-bac": {
         "العربية": {
             "lessons": {
-                "الاشتقاق": [
-                    {
-                        "question": "aaaaa",
-                        "options": [
-                            "aaa",
-                            "aaa",
-                            "&&&",
-                            "&&&"
-                        ],
-                        "correct": 3,
-                        "explanation": ""
-                    }
-                ]
+                "الاشتقاق": []
             }
         },
         "الاجتماعيات": {
